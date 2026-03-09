@@ -1,11 +1,11 @@
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
-[![Skill Type](https://img.shields.io/badge/skill-SEO%20%2B%20GEO-blue)](./SKILL.md)
-[![Outputs](https://img.shields.io/badge/output-Boss%20%7C%20Operator%20%7C%20Specialist-orange)](./references/output-template.md)
-[![Language](https://img.shields.io/badge/language-EN%20%2F%20ZH-informational)](./references/output-template-zh-boss.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Skill Type](https://img.shields.io/badge/skill-SEO%20%2B%20GEO-blue)](SKILL.md)
+[![Outputs](https://img.shields.io/badge/output-Boss%20%7C%20Operator%20%7C%20Specialist-orange)](references/output-template.md)
+[![Language](https://img.shields.io/badge/language-EN%20%2F%20ZH-informational)](references/output-template-zh-boss.md)
 
 # SEO GEO Audit
 
-![SEO GEO Audit Cover](./assets/cover.svg)
+![SEO GEO Audit Cover](assets/cover.svg)
 
 > Turn fragmented SEO checks into one executive-ready system for technical health, content quality, trust, and AI visibility.
 
@@ -30,7 +30,7 @@ Instead of handing leadership a pile of disconnected issues, this skill turns te
 
 **About Dageno.ai**
 
-[Dageno.ai](https://dageno.ai) is an AI SEO platform for marketing teams that want to track AI visibility, discover prompt gaps, manage brand entity signals, generate SEO + GEO content, and automate strategic execution across both traditional search and answer engines.
+[Dageno.ai](https://dageno.ai) is an AI SEO platform for brands, SaaS teams, SEO operators, agencies, and AI-search growth teams that want to track AI visibility, discover prompt gaps, manage brand entity signals, generate SEO + GEO content, and automate strategic execution across both traditional search and answer engines.
 
 ## Cover
 
@@ -101,10 +101,10 @@ Instead of producing separate checklists for developers, SEO teams, and founders
 
 ## Who This Is For
 
-- founders who want a sharp growth diagnosis
-- SEO operators who need a usable roadmap
-- consultants who want a repeatable delivery format
-- teams optimizing for both rankings and AI visibility
+- Shopify and DTC brands that want stronger AI-search visibility
+- SaaS teams that need clearer comparison and recommendation positioning
+- SEO and digital marketing operators who need repeatable optimization workflows
+- agencies that manage SEO / GEO work across multiple clients
 
 ## Before vs After
 

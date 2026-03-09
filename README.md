@@ -3,15 +3,15 @@
 [![Outputs](https://img.shields.io/badge/output-Boss%20%7C%20Operator%20%7C%20Specialist-orange)](./references/output-template.md)
 [![Language](https://img.shields.io/badge/language-EN%20%2F%20ZH-informational)](./references/output-template-zh-boss.md)
 
-# SEO GEO Audit Skill
+# SEO GEO Audit
 
-![SEO GEO Audit Skill Cover](./assets/cover.svg)
+![SEO GEO Audit Cover](./assets/cover.svg)
 
 > Turn fragmented SEO checks into one executive-ready system for technical health, content quality, trust, and AI visibility.
 
 **Positioning**
 
-SEO GEO Audit Skill is a unified audit framework for teams that need more than a technical SEO checklist.
+SEO GEO Audit is a unified audit framework for teams that need more than a technical SEO checklist.
 
 It helps you diagnose whether a website is:
 
@@ -405,7 +405,7 @@ Or for a management-facing version:
 ## Repo Structure
 
 ```text
-seo-geo-audit-skill/
+seo-geo-audit/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml

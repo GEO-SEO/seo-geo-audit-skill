@@ -7,7 +7,7 @@
 
 ![SEO GEO Audit Cover](assets/cover.svg)
 
-> Turn fragmented SEO checks into one executive-ready system for technical health, content quality, trust, and AI visibility.
+> Turn fragmented SEO checks into one executive-ready system for technical health, content quality, trust, off-site entity signals, and AI visibility.
 
 **Positioning**
 
@@ -19,6 +19,8 @@ It helps you diagnose whether a website is:
 - structurally clear enough to convert
 - trustworthy enough to earn authority
 - well-packaged enough to be cited by AI systems
+- visible enough across external platforms to be recognized as a real entity
+- aligned enough with different AI platforms to win beyond one generic GEO score
 
 This project helps answer a harder and more useful question than a standard site audit:
 
@@ -30,7 +32,7 @@ Instead of handing leadership a pile of disconnected issues, this skill turns te
 
 ## Best For
 
-- teams that need one audit spanning SEO, GEO, EEAT, entity, and authority
+- teams that need one audit spanning SEO, GEO, EEAT, entity, authority, and off-site visibility
 - founders or operators who need a management-ready summary instead of raw findings
 - agencies that want a repeatable audit structure across different clients
 - SEO teams that want to connect technical debt, content quality, and AI visibility
@@ -80,25 +82,40 @@ flowchart LR
     A --> D["GEO Readiness"]:::node
     A --> E["Trust & EEAT"]:::node
     A --> F["Entity & Authority"]:::node
+    A --> H["Off-site Mentions"]:::node
+    A --> I["Platform Fit"]:::node
     A --> G["Unified Output"]:::node
 
     B --> B1["Crawlability"]:::leaf
     B --> B2["Performance"]:::leaf
     B --> B3["Security"]:::leaf
+    B --> B4["Schema"]:::leaf
 
     C --> C1["Title & Meta"]:::leaf
     C --> C2["Intent Match"]:::leaf
     C --> C3["Internal Links"]:::leaf
+    C --> C4["Media"]:::leaf
 
     D --> D1["Answer-First"]:::leaf
     D --> D2["Extractability"]:::leaf
     D --> D3["AI Signals"]:::leaf
+    D --> D4["llms.txt"]:::leaf
 
     E --> E1["Author Signals"]:::leaf
     E --> E2["Editorial Clarity"]:::leaf
 
     F --> F1["Brand Identity"]:::leaf
-    F --> F2["Third-Party Signals"]:::leaf
+    F --> F2["sameAs / Schema"]:::leaf
+
+    H --> H1["LinkedIn"]:::leaf
+    H --> H2["Reddit"]:::leaf
+    H --> H3["YouTube"]:::leaf
+    H --> H4["Wikipedia / Wikidata"]:::leaf
+
+    I --> I1["ChatGPT"]:::leaf
+    I --> I2["Perplexity"]:::leaf
+    I --> I3["Gemini"]:::leaf
+    I --> I4["Google AIO / Bing"]:::leaf
 
     G --> G1["Boss Mode"]:::leaf
     G --> G2["Operator Mode"]:::leaf
@@ -126,6 +143,8 @@ This skill is designed to unify:
 - EEAT and trust review
 - AI visibility assessment
 - entity and authority analysis
+- off-site entity and mention validation
+- platform-specific AI search readiness
 - one practical action roadmap
 
 ## What You Get
@@ -281,6 +300,15 @@ Suggested interpretation:
 - about, contact, and policy coverage
 - entity disambiguation
 - third-party credibility indicators
+
+### 5. Off-site Mentions and Platform Validation
+
+- LinkedIn company and leadership presence
+- Reddit recommendation and discussion visibility
+- YouTube channel and transcript presence
+- Wikipedia / Wikidata coverage
+- GitHub, Product Hunt, Crunchbase, press, podcasts, and industry communities
+- platform-level fit for ChatGPT, Perplexity, Gemini, Google AI Overviews, and Bing Copilot
 
 ## Audit Map
 

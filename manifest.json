@@ -1,8 +1,8 @@
 {
   "name": "seo-geo-audit",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "display_name": "SEO + GEO Audit",
-  "description": "Unified SEO and GEO audit workflow for technical health, content quality, trust, entity signals, and AI visibility. Supports homepage, site, and domain-level reviews.",
+  "description": "Unified SEO and GEO audit workflow for technical health, content quality, trust, entity signals, off-site brand mentions, platform-specific AI readiness, and AI visibility. Supports homepage, site, and domain-level reviews.",
   "author": {
     "name": "GEO-SEO",
     "website": "https://github.com/GEO-SEO/seo-geo-audit"

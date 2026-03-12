@@ -3,7 +3,7 @@ name: seo-geo-audit-skill
 description: Run a unified SEO and GEO audit for a website, page, or domain. Use when the user asks for a full SEO audit, GEO audit, AI visibility review, EEAT review, entity audit, authority audit, or wants one prioritized report that combines technical findings, content quality, trust signals, and AI citation readiness.
 metadata:
   author: GEO-SEO
-  version: "1.0.4"
+  version: "1.1.0"
   homepage: https://github.com/GEO-SEO/seo-geo-audit
   primaryEnv: SERPAPI_API_KEY
   requires:
@@ -15,18 +15,18 @@ metadata:
 
 # SEO GEO Audit Skill
 
-Use this skill to produce one audit that covers both search performance and AI visibility.
+Use this skill to produce one audit that covers both search performance and AI visibility, including on-site readiness, off-site entity signals, and platform-specific AI search fit.
 
 ## Overview
 
-Use this skill when you need one audit that combines technical SEO, content quality, trust, entity clarity, and AI visibility into a single prioritized output.
+Use this skill when you need one audit that combines technical SEO, content quality, trust, entity clarity, off-site brand visibility, and platform-specific AI readiness into a single prioritized output.
 
 ## Best For
 
 - brands and SaaS teams that need one shared audit across SEO and GEO
 - founders or operators who want a management-ready summary, not a pile of raw issues
 - agencies that need a repeatable audit structure across multiple clients
-- SEO teams that want to connect technical debt, content quality, and AI visibility in one workflow
+- SEO teams that want to connect technical debt, content quality, off-site authority, and AI visibility in one workflow
 
 ## Start With
 
@@ -101,6 +101,20 @@ This skill is designed for three common use cases:
    - entity disambiguation
    - third-party credibility and authority indicators
 
+5. Off-site entity and brand mentions
+   - LinkedIn company and leadership presence
+   - Reddit discussion and recommendation visibility
+   - YouTube channel and transcript-level visibility
+   - Wikipedia and Wikidata entity presence
+   - GitHub, Product Hunt, Crunchbase, news, podcasts, and industry-community mentions
+
+6. Platform-specific AI readiness
+   - ChatGPT and Bing index alignment
+   - Perplexity citation friendliness
+   - Google AI Overviews answer formatting
+   - Gemini entity, schema, and Google ecosystem fit
+   - Bing Copilot freshness, IndexNow, and LinkedIn/GitHub support signals
+
 ## Workflow
 
 1. Define the scope.
@@ -130,6 +144,8 @@ This skill is designed for three common use cases:
    - on-page/content layer
    - GEO layer
    - entity/authority layer
+   - off-site mention layer
+   - platform-specific readiness layer
 
 5. Prioritize actions.
    - `P0`: blockers, trust failures, indexing failures, major performance issues
@@ -190,6 +206,8 @@ Every audit should include:
 - overall technical view
 - content and GEO view
 - entity and authority view
+- off-site mention and entity validation view
+- platform-specific readiness view
 - top priorities
 - missing data and validation notes
 

@@ -41,6 +41,22 @@ Use this structure for operator and specialist reports.
 ### Assessment
 - [entity ambiguity, weak authority signals, brand credibility gaps]
 
+## Off-site Mentions and Entity Validation
+
+### Observed
+- [LinkedIn, Reddit, YouTube, Wikipedia/Wikidata, GitHub, Product Hunt, Crunchbase, news, podcasts]
+
+### Assessment
+- [where the brand is visible, where entity authority is weak, and which missing platforms matter most]
+
+## Platform-Specific AI Readiness
+
+### Observed
+- [ChatGPT, Perplexity, Google AI Overviews, Gemini, Bing Copilot readiness notes]
+
+### Assessment
+- [which platforms are strongest, which are weakest, and why]
+
 ## Priority Roadmap
 
 ### P0

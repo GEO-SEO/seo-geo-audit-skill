@@ -27,13 +27,15 @@ Suggested interpretation:
 
 ## Layer 2: Strategic Visibility
 
-Assess these five areas using `Strong`, `Moderate`, `Weak`, or `Unknown`:
+Assess these seven areas using `Strong`, `Moderate`, `Weak`, or `Unknown`:
 
 1. Content Quality
 2. Trust and EEAT
 3. GEO Readiness
 4. Entity Clarity
 5. Authority Signals
+6. Off-site Brand Mentions
+7. Platform-Specific AI Readiness
 
 If the user explicitly wants a number, use directional conversion only:
 
@@ -44,7 +46,7 @@ If the user explicitly wants a number, use directional conversion only:
 
 ## Combined Interpretation
 
-- Strong technical + weak strategic: the site is crawlable, but not differentiated or citable enough
+- Strong technical + weak strategic: the site is crawlable, but not differentiated, referenced, or citable enough
 - Weak technical + strong strategic: the message is strong, but delivery is suppressing results
 - Weak technical + weak strategic: fix the baseline first, then strengthen content and brand signals
 - Strong technical + strong strategic: move toward scale, testing, and monitoring
@@ -52,8 +54,63 @@ If the user explicitly wants a number, use directional conversion only:
 For management summaries, translate this into plain language:
 
 - growth is being held back by technical friction
-- infrastructure is stable but trust and visibility signals are underdeveloped
+- infrastructure is stable but trust, entity, and platform visibility signals are underdeveloped
 - both technical delivery and market visibility need work
+
+## Strategic Visibility Checkpoints
+
+Use these checkpoints when scoring the seven strategic areas.
+
+### 1. Content Quality
+
+- intent match
+- page depth and completeness
+- structural clarity
+- conversion clarity
+
+### 2. Trust and EEAT
+
+- authorship and editorial clarity
+- first-party evidence
+- policy and legal transparency
+- source quality and freshness
+
+### 3. GEO Readiness
+
+- answer-first formatting
+- quotable blocks
+- machine-readable packaging
+- AI crawler accessibility cues
+
+### 4. Entity Clarity
+
+- organization identity consistency
+- same brand naming across pages
+- brand disambiguation
+- about/contact/schema alignment
+
+### 5. Authority Signals
+
+- third-party credibility indicators
+- trust-bearing references
+- external validation of expertise
+- domain-level reputation indicators
+
+### 6. Off-site Brand Mentions
+
+- LinkedIn company and founder presence
+- Reddit mention frequency and sentiment
+- YouTube channel or third-party transcript mentions
+- Wikipedia / Wikidata presence
+- GitHub, Product Hunt, Crunchbase, news, podcasts, and industry-community visibility
+
+### 7. Platform-Specific AI Readiness
+
+- ChatGPT and Bing compatibility
+- Perplexity discussion and citation fit
+- Google AI Overviews snippet and structure fit
+- Gemini entity and Google ecosystem fit
+- Bing Copilot freshness, IndexNow, and Microsoft-adjacent signals
 
 ## Priority Rules
 
@@ -64,7 +121,8 @@ Rank issues in this order:
 3. rendering and major performance issues
 4. metadata, schema, and structural issues
 5. EEAT, entity, and authority reinforcement
-6. GEO formatting and citation optimization
+6. off-site mention reinforcement and entity validation
+7. GEO formatting, platform fit, and citation optimization
 
 ## Missing Data Rules
 
@@ -77,3 +135,4 @@ Mark as `Not verified` if you do not have:
 - AI citation monitoring
 
 Do not guess backlink strength, branded demand, or citation share from page HTML alone.
+Do not infer social/community visibility unless the source platform was explicitly checked.

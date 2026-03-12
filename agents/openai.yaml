@@ -1,3 +1,3 @@
 display_name: SEO + GEO Audit
-short_description: Unified audit for SEO, GEO, EEAT, entity, and authority signals.
+short_description: Unified audit for SEO, GEO, EEAT, entity, authority, off-site mentions, and platform-specific AI readiness.
 default_prompt: Run a full SEO + GEO audit for this site and give me one prioritized report with P0, P1, and P2 actions.
